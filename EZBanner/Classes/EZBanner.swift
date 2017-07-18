@@ -32,6 +32,7 @@ open class EZBanner: UIView {
         super.awakeFromNib()
         self.scrollView.delegate = self
         self.pageControl.hidesForSinglePage = true
+        startTimer()
     }
     
     override open func layoutSubviews() {
