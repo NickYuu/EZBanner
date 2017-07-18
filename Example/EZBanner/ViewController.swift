@@ -7,17 +7,16 @@
 //
 
 import UIKit
+import EZBanner
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let ezpv = EZBanner.create([#imageLiteral(resourceName: "1"), #imageLiteral(resourceName: "2"), #imageLiteral(resourceName: "3")])
+        ezpv.start()
+        ezpv.center = view.center
+        view.addSubview(ezpv)
     }
 
 }

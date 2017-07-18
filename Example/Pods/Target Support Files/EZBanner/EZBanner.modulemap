@@ -1,0 +1,6 @@
+framework module EZBanner {
+  umbrella header "EZBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
