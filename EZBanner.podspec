@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EZBanner'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EZBanner.'
+  s.summary          = 'EZBanner 圖片輪播功能'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description      = 'EZBanner 可以快速實現圖片輪播功能'
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/NickYuu/EZBanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'NickYuu' => 'nick.yu@hzn.com.tw' }
+  s.author           = { 'NickYuu' => 's3310304067@gms.nutc.edu.tw' }
   s.source           = { :git => 'https://github.com/NickYuu/EZBanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

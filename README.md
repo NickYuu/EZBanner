@@ -22,7 +22,7 @@ pod "EZBanner"
 
 ## Author
 
-NickYuu, nick.yu@hzn.com.tw
+NickYuu, s3310304067@gms.nutc.edu.tw
 
 ## License
 
