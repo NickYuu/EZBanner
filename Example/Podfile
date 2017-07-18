@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EZBanner_Example' do
+  pod 'EZBanner', :path => '../'
+
+  target 'EZBanner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
