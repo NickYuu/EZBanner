@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/NickYuu/EZBanner.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.3'
+  s.ios.deployment_target = "8.0"
 
   s.source_files = 'EZBanner/Classes/**/*'
   
